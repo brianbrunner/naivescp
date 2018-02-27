@@ -1,0 +1,10 @@
+node_modules
+.nyc_output
+coverage
+.idea
+*.log
+yarn.lock
+.vscode
+data
+*.swp
+.DS_Store

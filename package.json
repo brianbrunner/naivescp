@@ -1,0 +1,27 @@
+{
+  "name": "naivescp",
+  "version": "0.0.1",
+  "description": "Simple implementation of the Stellar Consensus Protocol",
+  "repository": "https://github.com/naivescp/naivescp",
+  "author": "Brian Brunner",
+  "license": "Apache-2.0",
+  "bin": {
+    "naivescp": "bin/naivescp.js"
+  },
+  "scripts": {
+    "start": "node bin/naivescp.js"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cli-color": "^1.2.0",
+    "koa": "^2.5.0",
+    "koa-router": "^7.4.0",
+    "leveldown": "^3.0.0",
+    "levelup": "^2.0.2",
+    "moment": "^2.20.1",
+    "yargs": "^11.0.0"
+  },
+  "engines": {
+    "node": ">=8"
+  }
+}
