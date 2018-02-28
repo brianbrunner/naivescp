@@ -14,7 +14,9 @@
   "dependencies": {
     "axios": "^0.18.0",
     "cli-color": "^1.2.0",
+    "dnode": "^1.2.2",
     "koa": "^2.5.0",
+    "koa-bodyparser": "^4.2.0",
     "koa-router": "^7.4.0",
     "leveldown": "^3.0.0",
     "levelup": "^2.0.2",
